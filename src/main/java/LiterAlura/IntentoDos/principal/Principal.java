@@ -50,7 +50,7 @@ public class Principal {
                         break;
                     case 0:
                         System.out.println("Cerrando la aplicación...");
-                        break;
+                        return;
                     default:
                         System.out.println("Opción inválida, por favor intenta de nuevo.");
                 }
